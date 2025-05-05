@@ -338,3 +338,8 @@ WHERE SAL>'SCOTT' AND DEPTNO IN SELECT DEPTNO
                                 *
 ERROR at line 3:
 ORA-00936: missing expression
+
+
+
+
+TODAY TASK IS DONE 
