@@ -318,3 +318,4 @@ Wrote file afiedt.buf
 SQL> /
 
 no rows selected
+hi some issue is going
