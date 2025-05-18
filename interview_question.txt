@@ -1,0 +1,147 @@
+✅ SQL Interview Preparation Format
+📌 Section 1: Basic SQL (Entry-Level Jobs)
+Learn the fundamentals—ideal for freshers and junior roles.
+
+1. What is SQL?
+Answer:
+SQL (Structured Query Language) is used to interact with relational databases. It allows you to create, read, update, and delete data.
+
+2. What is the difference between WHERE and HAVING?
+Answer:
+
+WHERE filters rows before grouping.
+
+HAVING filters groups after grouping.
+Example:
+
+sql
+Copy
+Edit
+SELECT department, COUNT(*)  
+FROM employees  
+GROUP BY department  
+HAVING COUNT(*) > 5;
+3. What is a Primary Key?
+Answer:
+A column (or set of columns) that uniquely identifies each row in a table. It cannot be NULL and must be unique.
+
+4. What is the use of JOIN in SQL?
+Answer:
+JOIN is used to combine rows from two or more tables based on a related column.
+
+INNER JOIN: Matching records in both tables.
+
+LEFT JOIN: All records from the left table, matching from the right.
+
+RIGHT JOIN: All from the right, matching from the left.
+
+FULL JOIN: All records when there is a match in one of the tables.
+
+📌 Section 2: Intermediate SQL (Mid-Level Jobs)
+Prepares you for analyst roles, backend engineers, etc.
+
+5. What is the difference between RANK(), DENSE_RANK() and ROW_NUMBER()?
+Answer:
+
+ROW_NUMBER(): Gives unique sequence numbers.
+
+RANK(): Skips numbers for ties.
+
+DENSE_RANK(): No skips in ranks.
+
+Example:
+
+sql
+Copy
+Edit
+SELECT name, salary, RANK() OVER (ORDER BY salary DESC)  
+FROM employees;
+6. How do you find the second highest salary?
+Answer 1: Using LIMIT and OFFSET (MySQL)
+
+sql
+Copy
+Edit
+SELECT DISTINCT salary  
+FROM employees  
+ORDER BY salary DESC  
+LIMIT 1 OFFSET 1;
+Answer 2: Using Subquery
+
+sql
+Copy
+Edit
+SELECT MAX(salary)  
+FROM employees  
+WHERE salary < (SELECT MAX(salary) FROM employees);
+7. What is normalization? Name its types.
+Answer:
+Normalization is organizing data to reduce redundancy.
+
+1NF – Atomic columns.
+
+2NF – Remove partial dependency.
+
+3NF – Remove transitive dependency.
+
+📌 Section 3: Advanced SQL (High-Paying Jobs)
+For data engineers, data scientists, senior developers.
+
+8. What are CTEs (Common Table Expressions)?
+Answer:
+A CTE allows temporary result sets that can be referred to within a SELECT, INSERT, or UPDATE.
+
+sql
+Copy
+Edit
+WITH top_employees AS (
+  SELECT * FROM employees WHERE salary > 100000
+)
+SELECT * FROM top_employees;
+9. Explain Window Functions with an example.
+Answer:
+Window functions perform a calculation across a set of rows related to the current row.
+
+sql
+Copy
+Edit
+SELECT name, salary,  
+       AVG(salary) OVER (PARTITION BY department) AS avg_salary  
+FROM employees;
+10. What is a Deadlock in SQL?
+Answer:
+A deadlock occurs when two or more transactions hold locks and wait for each other to release locks. SQL Server handles it by terminating one of the transactions.
+
+11. How would you optimize a slow SQL query?
+Answer:
+
+Use indexes.
+
+Avoid SELECT *.
+
+Use proper WHERE conditions.
+
+Avoid correlated subqueries if not needed.
+
+Check execution plans.
+
+📋 SQL Topics Checklist (Self Study Tracker)
+Topic	Studied (✓/✗)	Practice Done (✓/✗)
+SELECT, WHERE, ORDER BY		
+GROUP BY, HAVING		
+JOINS (INNER, LEFT, etc.)		
+Subqueries & CTEs		
+Window Functions		
+Indexing		
+Transactions & ACID		
+Stored Procedures & Views		
+Performance Optimization		
+
+📚 Final Tips to Crack SQL Interviews
+Practice 20-30 SQL problems daily on platforms like LeetCode, HackerRank, or StrataScratch.
+
+Use real datasets from Kaggle or mock company scenarios.
+
+Always explain why you're writing a query a certain way in interviews.
+
+Be clear with set theory, null handling, and date/time functions.
