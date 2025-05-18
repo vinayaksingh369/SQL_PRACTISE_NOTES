@@ -608,5 +608,3 @@ SQL> REVOKE SELECT
   3  FROM SCOTT;
 
 Revoke succeeded.
-
-
