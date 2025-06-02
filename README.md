@@ -312,3 +312,46 @@ EXPLAIN SELECT * FROM table_name WHERE column = 'value';
 ---
 
 Feel free to **fork**, **star**, or **contribute**!
+
+
+
+###################################################### 🔹 Additional Resources
+
+- [SQL Tutorial](https://www.w3schools.com/sql/)
+- [SQLZoo](https://sqlzoo.net/)
+- [LeetCode SQL Problems](https://leetcode.com/problemset/all/?filters=tag%3ADatabase)
+- [Mode Analytics SQL Tutorial](https://mode.com/sql-tutorial/)
+- [Kaggle Datasets][def]
+
+[def]: https://www.kaggle.com/datasets
+
+## 🔹 Community & Support
+
+- [Stack Overflow SQL Tag](https://stackoverflow.com/questions/tagged/sql)
+- [Reddit r/SQL](https://www.reddit.com/r/SQL/)
+- [SQL Server Central](https://www.sqlservercentral.com/)
+- [Database Administrators Stack Exchange](https://dba.stackexchange.com/)
+
+## 🔹 License
+
+MIT License
+This cheat sheet is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
+## 🔹 Contributing  
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Create a Pull Request.
+## 🔹 Contact
+For any questions, suggestions, or issues, please open an issue in the repository or contact me via email at [your-email@example.com](mailto:your-email@example.com). 
+## 🔹 Acknowledgments
+This cheat sheet was created to help developers, engineers, and testers quickly reference SQL commands and concepts. Special thanks to the SQL community for their contributions and resources that made this possible.
+## 🔹 Version History
+- **v1.0** - Initial release with basic SQL commands and concepts.
+- **v1.1** - Added advanced topics like transactions, stored procedures, and triggers.
+- **v1.2** - Included best practices, testing utilities, and additional resources.
+- **v1.3** - Updated with new SQL functions and community resources.
+## 🔹 Feedback
+Your feedback is valuable! If you have suggestions for improvements or additional topics to cover, please open an issue or submit a pull request. Your contributions help make this cheat sheet better for everyone.
+## 🔹 Frequently Asked Questions (FAQ)
