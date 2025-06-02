@@ -434,3 +434,87 @@ This SQL cheat sheet provides a quick reference to essential SQL commands and co
 - SQL Data Transformation Techniques
 - SQL Data Integration Patterns
 ## 🔹 Additional Topics
+- SQL Data Quality Assurance
+- SQL Data Governance Frameworks
+- SQL Data Stewardship Best Practices   
+
+
+========================================================================
+# 🎯 HackerRank SQL Mastery Guide
+
+> Unlock high-level HackerRank SQL badges and certifications with this structured learning and practice repository.
+
+---
+
+## 📘 Overview
+
+This repo contains:
+- 📄 A complete learning guide (`README.md`)
+- 🧩 SQL practice templates and advanced query examples (`/examples`)
+- 🛠️ Notes on how to crack high-difficulty HackerRank SQL challenges
+
+---
+
+## 📖 Topics Covered
+
+- SELECT, WHERE, GROUP BY, ORDER BY
+- JOINs (INNER, LEFT, RIGHT)
+- Aggregates & Filters
+- Subqueries and CTEs
+- Window Functions (ROW_NUMBER, RANK, etc.)
+- Conditional logic with CASE
+- Top N per group, Duplicates, Running Totals
+- Certification preparation strategy
+
+---
+
+## 🧠 Folder Structure
+
+```
+hackerrank-sql-guide/
+├── README.md
+└── examples/
+    ├── running_total.sql
+    ├── top_n_per_group.sql
+    ├── subquery_avg.sql
+    └── case_when_grades.sql
+```
+
+---
+
+## 🚀 How to Use
+
+1. Clone this repo
+2. Use `README.md` to revise concepts
+3. Run `.sql` files in a SQL playground like [DB Fiddle](https://www.db-fiddle.com/)
+4. Solve HackerRank/LeetCode problems using the patterns
+
+---
+
+## 🏆 Final Tips
+
+- Solve 40+ high-difficulty problems to reach Expert level
+- Simulate HackerRank timed challenges
+- Practice window functions, joins, and advanced aggregations
+- Focus on optimization and query performance
+- Review HackerRank SQL certification requirements  
+- Join SQL communities for tips and discussions
+
+
+## 🔗 Resources
+- [HackerRank SQL Practice](https://www.hackerrank.com/domains/sql)
+
+- [LeetCode SQL Problems](https://leetcode.com/problemset/all/?filters=tag%3ADatabase)
+- [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
+- [Mode Analytics SQL Tutorial](https://mode.com/sql-tutorial/)
+- [SQLZoo](https://sqlzoo.net/)
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- [SQL Cheat Sheet by DataCamp](https://www.datacamp.com/community/blog/sql-cheat-sheet)
+- [SQL Cheat Sheet by Guru99](https://www.guru99.com/sql-cheat-sheet.html)
+- [SQL Cheat Sheet by SQLBolt](https://sqlbolt.com/)
+- [Stack Overflow SQL Tag](https://stackoverflow.com/questions/tagged/sql)
+- [Reddit r/SQL](https://www.reddit.com/r/SQL/)
+- [SQL Server Central](https://www.sqlservercentral.com/)
+- [Database Administrators Stack Exchange](https://dba.stackexchange.com/)
+
+----------------------------------------------------------------------------------------
